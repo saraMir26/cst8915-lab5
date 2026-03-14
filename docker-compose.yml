@@ -1,3 +1,5 @@
+#Local Images are used in this yml file
+
 # Specifies the version of Docker Compose format being used
 version: '3'
 
