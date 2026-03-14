@@ -50,16 +50,20 @@ Each service is containerized using Docker and orchestrated together using Docke
 
 YouTube Demo Link:
 
-[Youtube Video](https://youtu.be/7zAWqSQauPY)
+[Youtube Video](https://youtu.be/Z5o6n2x6pJw)
 
 ---
 
 
 ## Docker Compose File
 
-The Docker Compose configuration used in this lab can be found here:
+The Docker Compose file used for running the application with local images is available here:
 
 [View docker-compose.yml](./docker-compose.yml) 
+
+The Docker Compose file used for running the application with Docker Hub–hosted images is available here:
+
+[View Docker-Hub yml file](./docker-compose1.yml)
 
 ## Docker File
 
