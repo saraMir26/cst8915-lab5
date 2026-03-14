@@ -58,6 +58,7 @@ https://youtu.be/7zAWqSQauPY
 The Docker Compose configuration used in this lab can be found here:
 
 [View docker-compose.yml](./docker-compose.yml)
+[Order-service Repository]([https://github.com/ramymohamed10/order-service-L4](https://github.com/saraMir26/order-service-L5))
 
 ---
 ## Notes – Setup Challenges / Lessons Learned
