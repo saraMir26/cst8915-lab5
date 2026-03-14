@@ -3,8 +3,8 @@
 
 **Course:** CST8915 – Full-stack Cloud-native Development  
 **Lab:** Lab 5  
-**Student:** Sara MIRZAEI  
-**Repository:** CST8915_Lab5  
+**Student:** Sara Mirzaei  
+
 
 ---
 
@@ -50,15 +50,32 @@ Each service is containerized using Docker and orchestrated together using Docke
 
 YouTube Demo Link:
 
-https://youtu.be/7zAWqSQauPY
+[Youtube Video](https://youtu.be/7zAWqSQauPY)
 
 ---
+
+
 ## Docker Compose File
 
 The Docker Compose configuration used in this lab can be found here:
 
-[View docker-compose.yml](./docker-compose.yml)
-[Order-service Repository]([https://github.com/ramymohamed10/order-service-L4](https://github.com/saraMir26/order-service-L5))
+[View docker-compose.yml](./docker-compose.yml) 
+
+## Docker File
+
+The Docker files configuration used in this lab can be found here: 
+
+**Order Servic Docker File:** [Order Service Dockerfile](https://github.com/saraMir26/order-service-L5/blob/main/Dockerfile)
+
+**Store Front Docker File:** [Store Front Docker File](https://github.com/saraMir26/store-front-L5/blob/main/Dockerfile)
+
+**Product Service Dockerfiles:**
+
+- Rust Version   [Rust Dockerfile](https://github.com/saraMir26/product-service-rust-L5/blob/main/Dockerfile)
+
+- Python Version   [Python Dockerfile](https://github.com/saraMir26/product-service-python-L5/blob/main/Dockerfile)
+
+
 
 ---
 ## Notes – Setup Challenges / Lessons Learned
@@ -67,4 +84,4 @@ During this lab I learned how to containerize multiple microservices and run the
 
 One challenge was ensuring that the services communicate correctly within the Docker network. 
 
-Another challenge was building and pushing images to Docker Hub and making sure the correct image names were referenced in the `docker-compose.yml` file. Once the images were pushed successfully, Docker Compose was able to pull and run them correctly.
+Another challenge was building and pushing images to Docker Hub and making sure the correct image names were referenced in the docker-compose.yml file. Once the images were pushed successfully, Docker Compose was able to pull and run them correctly.
